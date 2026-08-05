@@ -1,5 +1,5 @@
-import { Deposit } from '../models/deposit_function.js';
-import { Bin } from '../models/bins.js';
+import { Deposit } from '../Models/deposit_function.js';
+import { Bin } from '../Models/bins.js';
 
 const generateBarcode = async (binBarcode) => {
   const depositCount = await Deposit.count({

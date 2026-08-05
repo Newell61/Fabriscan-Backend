@@ -1,6 +1,6 @@
-import { Bin } from '../models/bins.js';
-import { Collection } from '../models/Collection.js';
-import { Inventory } from '../models/Inventory.js';
+import { Bin } from '../Models/bins.js';
+import { Collection } from '../Models/Collection.js';
+import { Inventory } from '../Models/Inventory.js';
 
 export const createCollection = async (req, res) => {
   try {

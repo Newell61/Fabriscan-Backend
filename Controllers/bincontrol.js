@@ -1,5 +1,5 @@
-import { Bin } from '../models/bins.js';
-import { User } from '../models/User.js';
+import { Bin } from '../Models/bins.js';
+import { User } from '../Models/User.js';
 
 export const getBins = async (req, res) => {
   try {

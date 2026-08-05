@@ -1,6 +1,6 @@
-import { Organisation } from '../models/Organisation.js';
-import { Inventory } from '../models/Inventory.js';
-import { Distribution } from '../models/Distribution.js';
+import { Organisation } from '../Models/Organisation.js';
+import { Inventory } from '../Models/Inventory.js';
+import { Distribution } from '../Models/Distribution.js';
 
 export const createDistributions = async (req, res) => {
   try {

@@ -1,10 +1,10 @@
 import { Router } from 'express';
-import { authenticate, authorize } from '../middleware/auth.js';
+import { authenticate, authorize } from '../Middleware/auth.js';
 import {
   createDistributions,
   getMyDistributions,
   signOffDistribution,
-} from '../controllers/distributionController.js';
+} from '../Controllers/distributionController.js';
 
 const router = Router();
 

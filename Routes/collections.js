@@ -1,12 +1,12 @@
 import { Router } from 'express';
-import { authenticate, authorize } from '../middleware/auth.js';
+import { authenticate, authorize } from '../Middleware/auth.js';
 import {
   createCollection,
   getVolunteerCollections,
   getPendingCollections,
   approveCollection,
   disputeCollection,
-} from '../controllers/collectioncontrol.js';
+} from '../Controllers/collectioncontrol.js';
 
 const router = Router();
 

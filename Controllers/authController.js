@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
-import { User } from '../models/User.js';
+import { User } from '../Models/User.js';
 
 const verifyPassword = (password, storedHash) => {
   const [salt, hash] = storedHash.split(':');

@@ -1,11 +1,11 @@
 import { Router } from 'express';
-import { authenticate, authorize } from '../middleware/auth.js';
+import { authenticate, authorize } from '../Middleware/auth.js';
 import {
   createDeposit,
   getDonorDeposits,
   getDepositByBarcode,
   getAllDeposits,
-} from '../controllers/depositcontrol.js';
+} from '../Controllers/depositcontrol.js';
 
 const router = Router();
 

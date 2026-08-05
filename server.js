@@ -3,14 +3,14 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import { connectDB } from './config/database.js';
 
-import authRoutes from './routes/auth.js';
-import binRoutes from './routes/bins.js';
-import depositRoutes from './routes/depositroute.js';
-import collectionRoutes from './routes/collections.js';
-import inventoryRoutes from './routes/inventory.js';
-import distributionRoutes from './routes/distributions.js';
-import orgRoutes from './routes/orgs.js';
-import userRoutes from './routes/users.js';
+import authRoutes from './Routes/auth.js';
+import binRoutes from './Routes/bins.js';
+import depositRoutes from './Routes/depositroute.js';
+import collectionRoutes from './Routes/collections.js';
+import inventoryRoutes from './Routes/inventory.js';
+import distributionRoutes from './Routes/distributions.js';
+import orgRoutes from './Routes/orgs.js';
+import userRoutes from './Routes/users.js';
 
 dotenv.config();
 

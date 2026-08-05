@@ -1,5 +1,5 @@
 import crypto from 'crypto';
-import { User } from '../models/User.js';
+import { User } from '../Models/User.js';
 
 const generatePassword = () => crypto.randomBytes(8).toString('hex');
 

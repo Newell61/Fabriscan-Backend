@@ -1,12 +1,12 @@
 import { Router } from 'express';
-import { authenticate, authorize } from '../middleware/auth.js';
+import { authenticate, authorize } from '../Middleware/auth.js';
 import {
   getBins,
   getBinByBarcode,
   createBin,
   updateBin,
   assignContactToBin,
-} from '../controllers/bincontrol.js';
+} from '../Controllers/bincontrol.js';
 
 const router = Router();
 

@@ -1,12 +1,12 @@
 import { Router } from 'express';
-import { authenticate, authorize } from '../middleware/auth.js';
+import { authenticate, authorize } from '../Middleware/auth.js';
 import {
   createOrganisation,
   getOrganisations,
   approveOrganisation,
   rejectOrganisation,
   suspendOrganisation,
-} from '../controllers/orgController.js';
+} from '../Controllers/orgController.js';
 
 const router = Router();
 
